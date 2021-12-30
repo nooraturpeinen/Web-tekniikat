@@ -1,0 +1,81 @@
+/* Background and border colors */
+$body-color: rgb(241, 237, 243);
+$nav-footer-color: rgb(201, 179, 211);
+$carousel-color: rgb(161, 159, 161);
+$info-border-color: rgb(53, 52, 53);
+$info-top-color: rgb(88, 87, 88);
+$info-bottom-color: rgb(224, 206, 233);
+$accordion-color: rgb(245, 245, 245);
+
+/* Text colors */
+@mixin text ($text: rgb(20, 20, 20)) {
+    @if $text == rgb(20, 20, 20) {
+        text-decoration: underline;
+    }
+    color: $text;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: $body-color;
+}
+
+nav, footer {
+    height: 85px;
+    background-color: $nav-footer-color;
+    font-size: 17px;
+}
+
+.container-fluid > img {
+    height: 65px;
+}
+
+#carouselExampleCaptions {
+    background-color: $carousel-color;
+}
+
+.carousel-item > div > p{
+    font-size: 13px;
+}
+
+span, button {
+    @include text ($text: rgb(46, 45, 45));
+    font-weight: bold;
+}
+
+strong {
+    @include text;
+    font-size: 30px;
+}
+
+.col > img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div[class*="mt-5"] {
+    background: linear-gradient(to bottom, $info-top-color 0%, $info-top-color 25%, $info-bottom-color 25%, $info-bottom-color 100%);
+    border: 3px solid $info-border-color;
+    border-radius: 5px;
+    p:first-child {
+        @include text ($text: rgb(254, 254, 254));
+        font-weight: bold;
+    }
+}
+
+ul {
+    list-style-type: circle;
+    padding: 10px 0px 3px 15px;
+}
+
+.accordion-item {
+    background-color: $accordion-color;
+}
+
+div[class$="col"] > p:first-child {
+    @include text;
+    font-size: 20px;
+    font-weight: bold;
+}

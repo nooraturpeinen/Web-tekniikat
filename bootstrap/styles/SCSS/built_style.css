@@ -1,0 +1,70 @@
+/* Background and border colors */
+/* Text colors */
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f1edf3;
+}
+
+nav, footer {
+  height: 85px;
+  background-color: #c9b3d3;
+  font-size: 17px;
+}
+
+.container-fluid > img {
+  height: 65px;
+}
+
+#carouselExampleCaptions {
+  background-color: #a19fa1;
+}
+
+.carousel-item > div > p {
+  font-size: 13px;
+}
+
+span, button {
+  color: #2e2d2d;
+  font-weight: bold;
+}
+
+strong {
+  text-decoration: underline;
+  color: #141414;
+  font-size: 30px;
+}
+
+.col > img {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+div[class*=mt-5] {
+  background: linear-gradient(to bottom, #585758 0%, #585758 25%, #e0cee9 25%, #e0cee9 100%);
+  border: 3px solid #353435;
+  border-radius: 5px;
+}
+div[class*=mt-5] p:first-child {
+  color: #fefefe;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 10px 0px 3px 15px;
+}
+
+.accordion-item {
+  background-color: whitesmoke;
+}
+
+div[class$=col] > p:first-child {
+  text-decoration: underline;
+  color: #141414;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=built_style.css.map */
