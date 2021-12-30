@@ -1,4 +1,4 @@
-// Creating a HTTP request
+// Creating an HTTP request
 let xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "https://liukastumisvaroitus-api.beze.io/api/v1/warnings", true);
 // Send request
