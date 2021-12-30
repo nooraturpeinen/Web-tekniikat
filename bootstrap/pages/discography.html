@@ -1,122 +1,81 @@
 <!doctype html>
-<html lang="en">
+<html lang="fin">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="author" content="Noora Turpeinen">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>BTS - Diskografia</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>BTS - DISKOGRAFIA</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">BTS</a>
+          <img src="../images/logo.png" class="navbar-brand">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Etusivu</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Etusivu</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Valikko
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Jäsenet</a></li>
-                  <li><a class="dropdown-item" href="#">Diskografia</a></li>
+                  <li><a class="dropdown-item" href="members.html">Jäsenet</a></li>
+                  <li><a class="dropdown-item" href="discography.html">Diskografia</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     <!-- Accordion -->
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-            2013
+            2021
           </button>
         </h2>
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
           <div class="accordion-body">
-            <div>
-              <strong>2 Cool 4 Skool</strong>
-              <p>Ensimmäinen singlealbumi</p>
-              <p>Julkaistu: 12.6.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : 2 COOL 4 SKOOL feat. DJ Friz 1’03”<br>
-                2 We are bulletproof PT.2 3’45”<br>
-                3 Skit : Circle room talk 2’11”<br>
-                4 No More Dream 3’42”<br>
-                5 Interlude 0’52”<br>
-                6 Like 3’51”<br>
-                7 Outro : Circle room cypher 5’21”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Butter</strong>
+                <p>Digitaalinen single</p>
+                <p>Julkaistu: 21.5.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Butter 2’44”<br>
+                  2 Butter (Instrumental) 2’42”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/butter1.png" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>O!RUL8,2?</strong>
-              <p>Ensimmäinen EP</p>
-              <p>Julkaistu: 11.9.</p>
-              <p>
-                Kappaleet:<br>
-                1 INTRO : O!RUL8,2? 1’11”<br>
-                2 N.O 3’30”<br>
-                3 We On 3’51”<br>
-                4 Skit: R U Happy Now? 2’28”<br>
-                5 If I Ruled the World 4’07”<br>
-                6 Coffee 4’20”<br>
-                7 BTS Cypher PT.1 2’11”<br>
-                8 Attack on Bangtan 4’07”<br>
-                9 Paldogangsan 3’25”<br>
-                10 OUTRO : LUV IN SKOOL 1’26”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Butter</strong>
+                <p>CD single</p>
+                <p>Julkaistu: 9.7.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Butter 2’44”<br>
+                  2 Permission to Dance 3’07”<br>
+                  3 Butter (Instrumental) 2’42”<br>
+                  4 Permission to Dance (Instrumental) 3’07”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/butter2.png" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -124,50 +83,80 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-            2014
+            2020
           </button>
         </h2>
         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
           <div class="accordion-body">
-            <div>
-              <strong>Skool Luv Affair</strong>
-              <p>Toinen EP</p>
-              <p>Julkaistu: 12.4.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro: Skool Luv Affair 2’58”<br>
-                2 Boy In Luv 3’50”<br>
-                3 Skit: Soulmate 1’32”<br>
-                4 Where You From 4’00”<br>
-                5 Just One Day 4’00”<br>
-                6 Tomorrow 4’22”<br>
-                7 BTS Cypher Pt. 2: Triptych 4’48”<br>
-                8 Spine Breaker 3’59”<br>
-                9 Jump 3’57”<br>
-                10 Outro: Propose 2’03”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>MAP OF THE SOUL : 7</strong>
+                <p>Neljäs studioalbumi</p>
+                <p>Julkaistu: 21.2.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Persona 2’54”<br>
+                  2 Boy With Luv (Feat. Halsey) 3’49”<br>
+                  3 Make It Right 3’42”<br>
+                  4 Jamais Vu 3’46”<br>
+                  5 Dionysus 4’08”<br>
+                  6 Interlude : Shadow 4’20”<br>
+                  7 Black Swan 3’18”<br>
+                  8 Filter 3’00”<br>
+                  9 My Time 3’54”<br>
+                  10 Louder than bombs 3’37”<br>
+                  11 ON 4’06”<br>
+                  12 UGH! 3’45”<br>
+                  13 00:00 (Zero O’Clock) 4’10”<br>
+                  14 Inner Child 3’53”<br>
+                  15 Friends 3’19”<br>
+                  16 Moon 3’29”<br>
+                  17 Respect 3’58”<br>
+                  18 We are Bulletproof : the Eternal 4’22”<br>
+                  19 Outro : Ego 3’16”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/7.jpg" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>Dark & Wild</strong>
-              <p>Ensimmäinen studioalbumi</p>
-              <p>Julkaistu: 20.8.</p>
-              <p>
-                Kappaleet: <br>
-                1 Intro : What am I to you 2’45”<br>
-                2 Danger 2’45”<br>
-                3 War of Hormone 4’26”<br>
-                4 Hip Hop Phile 4’17”<br>
-                5 Let Me Know 4’15”<br>
-                6 Rain 4’25”<br>
-                7 BTS Cypher PT.3 : KILLER (Feat. Supreme Boi) 4’28”<br>
-                8 Interlude : What are you doing now 0’42”<br>
-                9 Could you turn off your cell phone 3’54”<br>
-                10 Embarrassed 4’02”<br>
-                11 24/7=heaven 3’36”<br>
-                12 Look here 3’39”<br>
-                13 So 4 more 3’55”<br>
-                14 Outro : Do you think it makes sense? 2’53”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Dynamite</strong>
+                <p>Digitaalinen single</p>
+                <p>Julkaistu: 21.8.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Dynamite 3’18”<br>
+                  2 Dynamite (Instrumental) 3’18”<br>
+                  3 Dynamite (Acoustic Remix) 3’17”<br>
+                  4 Dynamite (EDM Remix) 3’18”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/dynamite.jpg" class="m-2">
+              </div>
+            </div>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>BE</strong>
+                <p>Albumi</p>
+                <p>Julkaistu: 20.11.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Life Goes On 3’27”<br>
+                  2 Fly To My Room 3’42”<br>
+                  3 Blue & Grey 4’15”<br>
+                  4 Skit 3’00”<br>
+                  5 Telepathy 3’22”<br>
+                  6 Dis-ease 4’00”<br>
+                  7 Stay 3’25”<br>
+                  8 Dynamite 3’19”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/be.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -175,44 +164,30 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-            2015
+            2019
           </button>
         </h2>
         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
           <div class="accordion-body">
-            <div>
-              <strong>The Most Beautiful Moment in Life Pt.1</strong>
-              <p>Kolmas EP</p>
-              <p>Julkaistu: 29.4.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : The most beautiful moment in life 2’03”<br>
-                2 I NEED U 3’30”<br>
-                3 Hold Me Tight 4’34”<br>
-                4 SKIT : Expectation! 2’27”<br>
-                5 DOPE 4’00”<br>
-                6 Boyz with Fun 4’04”<br>
-                7 Converse High 3’29”<br>
-                8 Moving On 4’52”<br>
-                9 Outro : Love Is Not Over 2’23”
-              </p>
-            </div>
-            <div>
-              <strong>The Most Beautiful Moment in Life Pt.2</strong>
-              <p>Neljäs EP</p>
-              <p>Julkaistu: 30.11.</p>
-              <p>
-                Kappaleet:<br>
-                1 INTRO : Never Mind 2’18”<br>
-                2 RUN 3’57”<br>
-                3 Butterfly 4’00”<br>
-                4 Whalien 52 4’04”<br>
-                5 Ma City 4’18”<br>
-                6 Silver Spoon 3’54”<br>
-                7 SKIT : One night in a strange city 4’25”<br>
-                8 Autumn Leaves 4’28”<br>
-                9 OUTRO : House Of Cards 2’57”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>MAP OF THE SOUL : PERSONA</strong>
+                <p>Kuudes EP</p>
+                <p>Julkaistu: 12.4.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Persona 2’54”<br>
+                  2 Boy With Luv (Feat. Halsey) 3’49”<br>
+                  3 Mikrokosmos 3’46”<br>
+                  4 Make It Right 3’42”<br>
+                  5 HOME 4’00”<br>
+                  6 Jamais Vu 3’46”<br>
+                  7 Dionysus 4’08”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/persona.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -220,66 +195,74 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            2016
+            2018
           </button>
         </h2>
         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
           <div class="accordion-body">
-            <div>
-              <strong>The Most Beautiful Moment in Life: Young Forever</strong>
-              <p>Ensimmäinen kokoelma-albumi</p>
-              <p>Julkaistu: 2.5.</p>
-              <p>
-                Kappaleet:<br>
-                Levy A<br>
-                1 INTRO : The most beautiful moment in life 2’03”<br>
-                2 I NEED U 3’31”<br>
-                3 Hold Me Tight 4’35”<br>
-                4 Autumn Leaves 4’28”<br>
-                5 Butterfly prologue mix 4’55”<br>
-                6 RUN 3’57”<br>
-                7 Ma city 4’18”<br>
-                8 Silver Spoon 3’54”<br>
-                9 DOPE 4’00”<br>
-                10 Burning Up (FIRE) 3’23”<br>
-                11 Save ME 3’16”<br>
-                12 Epilogue : Young Forever 2’51”<br>
-                Levy B<br>
-                1 Converse High 3’29”<br>
-                2 Moving On 4’52”<br>
-                3 Whalien 52 4’04”<br>
-                4 Butterfly 4’00”<br>
-                5 House OF Cards (full length edition) 3’46”<br>
-                6 Love is not over (full length edition) 3’41”<br>
-                7 I NEED U urban mix 3’35”<br>
-                8 I NEED U remix 3’43”<br>
-                9 RUN ballad mix 4’17”<br>
-                10 RUN (alternative mix) 3’56”<br>
-                11 Butterfly (alternative mix) 4’01”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Love Yourself 轉 'Tear'</strong>
+                <p>Kolmas studio-albumi</p>
+                <p>Julkaistu: 18.5.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Singularity 3’14”<br>
+                  2 FAKE LOVE 4’06”<br>
+                  3 The Truth Untold (Feat. Steve Aoki) 4’02”<br>
+                  4 134340 3’49”<br>
+                  5 Paradise 3’30”<br>
+                  6 Love Maze 3’40”<br>
+                  7 Magic Shop 4’36”<br>
+                  8 Airplane pt.2 3’39”<br>
+                  9 Anpanman 3’54”<br>
+                  10 So What 4’44”<br>
+                  11 Outro : Tear 4’45”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/tear.jpg" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>Wings</strong>
-              <p>Toinen studioalbumi</p>
-              <p>Julkaistu: 10.10.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Boy Meets Evil 2’02”<br>
-                2 Blood Sweat & Tears 3’33”<br>
-                3 Begin 3’37”<br>
-                4 Lie 3’37”<br>
-                5 Stigma 3’39”<br>
-                6 First Love 3’04”<br>
-                7 Reflection 3’56”<br>
-                8 MAMA 3’35”<br>
-                9 Awake 3’35”<br>
-                10 Lost 4’01”<br>
-                11 BTS Cypher 4 4’52”<br>
-                12 Am I Wrong 3’33”<br>
-                13 21st Century Girl 3’15”<br>
-                14 2! 3! 4’38”<br>
-                15 Interlude : Wings 2’23”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Love Yourself 結 'Answer'</strong>
+                <p>Uudelleenpakattu albumi</p>
+                <p>Julkaistu: 24.8.</p>
+                <p>
+                  Kappaleet:<br>
+                  Levy A<br>
+                  1 Euphoria 3’49”<br>
+                  2 Trivia 起 : Just Dance 3’45”<br>
+                  3 Serendipity (Full Length Edition) 4’37”<br>
+                  4 DNA 3’43”<br>
+                  5 Dimple 3’16”<br>
+                  6 Trivia 承 : Love 3’46”<br>
+                  7 Her 3’49”<br>
+                  8 Singularity 3’17”<br>
+                  9 FAKE LOVE 4’02”<br>
+                  10 The Truth Untold (Feat. Steve Aoki) 4’06”<br>
+                  11 Trivia 轉 : Seesaw 4’06”<br>
+                  12 Tear 4’45”<br>
+                  13 Epiphany 4’00”<br>
+                  14 I'm Fine 4’00”<br>
+                  15 IDOL 3’43”<br>
+                  16 Answer : Love Myself 4’11”<br>
+                  Levy B<br>
+                  1 Magic Shop 4’36”<br>
+                  2 Best Of Me 3’46”<br>
+                  3 Airplane pt.2 3’39”<br>
+                  4 Go Go 3’55”<br>
+                  5 Anpanman 3’54”<br>
+                  6 MIC Drop 3’57”<br>
+                  7 DNA (Pedal 2 LA Mix) 4’07”<br>
+                  8 FAKE LOVE (Rocking Vibe Mix) 3’58”<br>
+                  9 MIC Drop (Steve Aoki Remix) (Full Length Edition) 5’08”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/answer.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -292,48 +275,58 @@
         </h2>
         <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
           <div class="accordion-body">
-            <div>
-              <strong>You Never Walk Alone</strong>
-              <p>Toinen kokoelma-albumi</p>
-              <p>Julkaistu: 13.2.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Boy Meets Evil 2’02”<br>
-                2 Blood Sweat & Tears 3’33”<br>
-                3 Begin 3’51”<br>
-                4 Lie 3’37”<br>
-                5 Stigma 3’39”<br>
-                6 First Love 3’04”<br>
-                7 Reflection 3’56”<br>
-                8 MAMA 3’35”<br>
-                9 Awake 3’35”<br>
-                10 Lost 4’01”<br>
-                11 BTS Cypher 4 4’52”<br>
-                12 Am I Wrong 3’33”<br>
-                13 21st Century Girl 3’15”<br>
-                14 2! 3! 4’38”<br>
-                15 Spring Day 4’34”<br>
-                16 Not Today 3’52”<br>
-                17 Outro : Wings 3’45”<br>
-                18 A Supplementary Story : You Never Walk Alone 2’36”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>You Never Walk Alone</strong>
+                <p>Toinen kokoelma-albumi</p>
+                <p>Julkaistu: 13.2.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Boy Meets Evil 2’02”<br>
+                  2 Blood Sweat & Tears 3’33”<br>
+                  3 Begin 3’51”<br>
+                  4 Lie 3’37”<br>
+                  5 Stigma 3’39”<br>
+                  6 First Love 3’04”<br>
+                  7 Reflection 3’56”<br>
+                  8 MAMA 3’35”<br>
+                  9 Awake 3’35”<br>
+                  10 Lost 4’01”<br>
+                  11 BTS Cypher 4 4’52”<br>
+                  12 Am I Wrong 3’33”<br>
+                  13 21st Century Girl 3’15”<br>
+                  14 2! 3! 4’38”<br>
+                  15 Spring Day 4’34”<br>
+                  16 Not Today 3’52”<br>
+                  17 Outro : Wings 3’45”<br>
+                  18 A Supplementary Story : You Never Walk Alone 2’36”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/ynwa.jpg" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>Love Yourself 承 'Her'</strong>
-              <p>Viides EP</p>
-              <p>Julkaistu: 18.9.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Serendipity 2’19”<br>
-                2 DNA 3’43”<br>
-                3 Best Of Me 3’46”<br>
-                4 Dimple 3’16”<br>
-                5 Pied Piper 4’05”<br>
-                6 Skit : Billboard Music Awards Speech 1’43”<br>
-                7 MIC Drop 3’57”<br>
-                8 Go Go 3’55”<br>
-                9 Outro : Her 3’49”<br>
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Love Yourself 承 'Her'</strong>
+                <p>Viides EP</p>
+                <p>Julkaistu: 18.9.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Serendipity 2’19”<br>
+                  2 DNA 3’43”<br>
+                  3 Best Of Me 3’46”<br>
+                  4 Dimple 3’16”<br>
+                  5 Pied Piper 4’05”<br>
+                  6 Skit : Billboard Music Awards Speech 1’43”<br>
+                  7 MIC Drop 3’57”<br>
+                  8 Go Go 3’55”<br>
+                  9 Outro : Her 3’49”<br>
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/her.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -341,64 +334,76 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingSix">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-            2018
+            2016
           </button>
         </h2>
         <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
           <div class="accordion-body">
-            <div>
-              <strong>Love Yourself 轉 'Tear'</strong>
-              <p>Kolmas studio-albumi</p>
-              <p>Julkaistu: 18.5.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Singularity 3’14”<br>
-                2 FAKE LOVE 4’06”<br>
-                3 The Truth Untold (Feat. Steve Aoki) 4’02”<br>
-                4 134340 3’49”<br>
-                5 Paradise 3’30”<br>
-                6 Love Maze 3’40”<br>
-                7 Magic Shop 4’36”<br>
-                8 Airplane pt.2 3’39”<br>
-                9 Anpanman 3’54”<br>
-                10 So What 4’44”<br>
-                11 Outro : Tear 4’45”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>The Most Beautiful Moment in Life: Young Forever</strong>
+                <p>Ensimmäinen kokoelma-albumi</p>
+                <p>Julkaistu: 2.5.</p>
+                <p>
+                  Kappaleet:<br>
+                  Levy A<br>
+                  1 INTRO : The most beautiful moment in life 2’03”<br>
+                  2 I NEED U 3’31”<br>
+                  3 Hold Me Tight 4’35”<br>
+                  4 Autumn Leaves 4’28”<br>
+                  5 Butterfly prologue mix 4’55”<br>
+                  6 RUN 3’57”<br>
+                  7 Ma city 4’18”<br>
+                  8 Silver Spoon 3’54”<br>
+                  9 DOPE 4’00”<br>
+                  10 Burning Up (FIRE) 3’23”<br>
+                  11 Save ME 3’16”<br>
+                  12 Epilogue : Young Forever 2’51”<br>
+                  Levy B<br>
+                  1 Converse High 3’29”<br>
+                  2 Moving On 4’52”<br>
+                  3 Whalien 52 4’04”<br>
+                  4 Butterfly 4’00”<br>
+                  5 House OF Cards (full length edition) 3’46”<br>
+                  6 Love is not over (full length edition) 3’41”<br>
+                  7 I NEED U urban mix 3’35”<br>
+                  8 I NEED U remix 3’43”<br>
+                  9 RUN ballad mix 4’17”<br>
+                  10 RUN (alternative mix) 3’56”<br>
+                  11 Butterfly (alternative mix) 4’01”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/hyyhyf.jpg" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>Love Yourself 結 'Answer'</strong>
-              <p>Uudelleenpakattu albumi</p>
-              <p>Julkaistu: 24.8.</p>
-              <p>
-                Kappaleet:<br>
-                Levy A<br>
-                1 Euphoria 3’49”<br>
-                2 Trivia 起 : Just Dance 3’45”<br>
-                3 Serendipity (Full Length Edition) 4’37”<br>
-                4 DNA 3’43”<br>
-                5 Dimple 3’16”<br>
-                6 Trivia 承 : Love 3’46”<br>
-                7 Her 3’49”<br>
-                8 Singularity 3’17”<br>
-                9 FAKE LOVE 4’02”<br>
-                10 The Truth Untold (Feat. Steve Aoki) 4’06”<br>
-                11 Trivia 轉 : Seesaw 4’06”<br>
-                12 Tear 4’45”<br>
-                13 Epiphany 4’00”<br>
-                14 I'm Fine 4’00”<br>
-                15 IDOL 3’43”<br>
-                16 Answer : Love Myself 4’11”<br>
-                Levy B<br>
-                1 Magic Shop 4’36”<br>
-                2 Best Of Me 3’46”<br>
-                3 Airplane pt.2 3’39”<br>
-                4 Go Go 3’55”<br>
-                5 Anpanman 3’54”<br>
-                6 MIC Drop 3’57”<br>
-                7 DNA (Pedal 2 LA Mix) 4’07”<br>
-                8 FAKE LOVE (Rocking Vibe Mix) 3’58”<br>
-                9 MIC Drop (Steve Aoki Remix) (Full Length Edition) 5’08”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Wings</strong>
+                <p>Toinen studioalbumi</p>
+                <p>Julkaistu: 10.10.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : Boy Meets Evil 2’02”<br>
+                  2 Blood Sweat & Tears 3’33”<br>
+                  3 Begin 3’37”<br>
+                  4 Lie 3’37”<br>
+                  5 Stigma 3’39”<br>
+                  6 First Love 3’04”<br>
+                  7 Reflection 3’56”<br>
+                  8 MAMA 3’35”<br>
+                  9 Awake 3’35”<br>
+                  10 Lost 4’01”<br>
+                  11 BTS Cypher 4 4’52”<br>
+                  12 Am I Wrong 3’33”<br>
+                  13 21st Century Girl 3’15”<br>
+                  14 2! 3! 4’38”<br>
+                  15 Interlude : Wings 2’23”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/wings.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -406,25 +411,54 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-            2019
+            2015
           </button>
         </h2>
         <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
           <div class="accordion-body">
-            <div>
-              <strong>MAP OF THE SOUL : PERSONA</strong>
-              <p>Kuudes EP</p>
-              <p>Julkaistu: 12.4.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Persona 2’54”<br>
-                2 Boy With Luv (Feat. Halsey) 3’49”<br>
-                3 Mikrokosmos 3’46”<br>
-                4 Make It Right 3’42”<br>
-                5 HOME 4’00”<br>
-                6 Jamais Vu 3’46”<br>
-                7 Dionysus 4’08”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>The Most Beautiful Moment in Life Pt.1</strong>
+                <p>Kolmas EP</p>
+                <p>Julkaistu: 29.4.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : The most beautiful moment in life 2’03”<br>
+                  2 I NEED U 3’30”<br>
+                  3 Hold Me Tight 4’34”<br>
+                  4 SKIT : Expectation! 2’27”<br>
+                  5 DOPE 4’00”<br>
+                  6 Boyz with Fun 4’04”<br>
+                  7 Converse High 3’29”<br>
+                  8 Moving On 4’52”<br>
+                  9 Outro : Love Is Not Over 2’23”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/hyyhpt1.jpg" class="m-2">
+              </div>
+            </div>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>The Most Beautiful Moment in Life Pt.2</strong>
+                <p>Neljäs EP</p>
+                <p>Julkaistu: 30.11.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 INTRO : Never Mind 2’18”<br>
+                  2 RUN 3’57”<br>
+                  3 Butterfly 4’00”<br>
+                  4 Whalien 52 4’04”<br>
+                  5 Ma City 4’18”<br>
+                  6 Silver Spoon 3’54”<br>
+                  7 SKIT : One night in a strange city 4’25”<br>
+                  8 Autumn Leaves 4’28”<br>
+                  9 OUTRO : House Of Cards 2’57”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/hyyhpt2.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
@@ -432,103 +466,126 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingEight">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-            2020
+            2014
           </button>
         </h2>
         <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
           <div class="accordion-body">
-            <div>
-              <strong>MAP OF THE SOUL : 7</strong>
-              <p>Neljäs studioalbumi</p>
-              <p>Julkaistu: 21.2.</p>
-              <p>
-                Kappaleet:<br>
-                1 Intro : Persona 2’54”<br>
-                2 Boy With Luv (Feat. Halsey) 3’49”<br>
-                3 Make It Right 3’42”<br>
-                4 Jamais Vu 3’46”<br>
-                5 Dionysus 4’08”<br>
-                6 Interlude : Shadow 4’20”<br>
-                7 Black Swan 3’18”<br>
-                8 Filter 3’00”<br>
-                9 My Time 3’54”<br>
-                10 Louder than bombs 3’37”<br>
-                11 ON 4’06”<br>
-                12 UGH! 3’45”<br>
-                13 00:00 (Zero O’Clock) 4’10”<br>
-                14 Inner Child 3’53”<br>
-                15 Friends 3’19”<br>
-                16 Moon 3’29”<br>
-                17 Respect 3’58”<br>
-                18 We are Bulletproof : the Eternal 4’22”<br>
-                19 Outro : Ego 3’16”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Skool Luv Affair</strong>
+                <p>Toinen EP</p>
+                <p>Julkaistu: 12.4.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro: Skool Luv Affair 2’58”<br>
+                  2 Boy In Luv 3’50”<br>
+                  3 Skit: Soulmate 1’32”<br>
+                  4 Where You From 4’00”<br>
+                  5 Just One Day 4’00”<br>
+                  6 Tomorrow 4’22”<br>
+                  7 BTS Cypher Pt. 2: Triptych 4’48”<br>
+                  8 Spine Breaker 3’59”<br>
+                  9 Jump 3’57”<br>
+                  10 Outro: Propose 2’03”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/sla.jpg" class="m-2">
+              </div>
             </div>
-            <div>
-              <strong>Dynamite</strong>
-              <p>Digitaalinen single</p>
-              <p>Julkaistu: 21.8.</p>
-              <p>
-                Kappaleet:<br>
-                1 Dynamite 3’18”<br>
-                2 Dynamite (Instrumental) 3’18”<br>
-                3 Dynamite (Acoustic Remix) 3’17”<br>
-                4 Dynamite (EDM Remix) 3’18”
-              </p>
-            </div>
-            <div>
-              <strong>BE</strong>
-              <p>Albumi</p>
-              <p>Julkaistu: 20.11.</p>
-              <p>
-                Kappaleet:<br>
-                1 Life Goes On 3’27”<br>
-                2 Fly To My Room 3’42”<br>
-                3 Blue & Grey 4’15”<br>
-                4 Skit 3’00”<br>
-                5 Telepathy 3’22”<br>
-                6 Dis-ease 4’00”<br>
-                7 Stay 3’25”<br>
-                8 Dynamite 3’19”
-              </p>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>Dark & Wild</strong>
+                <p>Ensimmäinen studioalbumi</p>
+                <p>Julkaistu: 20.8.</p>
+                <p>
+                  Kappaleet: <br>
+                  1 Intro : What am I to you 2’45”<br>
+                  2 Danger 2’45”<br>
+                  3 War of Hormone 4’26”<br>
+                  4 Hip Hop Phile 4’17”<br>
+                  5 Let Me Know 4’15”<br>
+                  6 Rain 4’25”<br>
+                  7 BTS Cypher PT.3 : KILLER (Feat. Supreme Boi) 4’28”<br>
+                  8 Interlude : What are you doing now 0’42”<br>
+                  9 Could you turn off your cell phone 3’54”<br>
+                  10 Embarrassed 4’02”<br>
+                  11 24/7=heaven 3’36”<br>
+                  12 Look here 3’39”<br>
+                  13 So 4 more 3’55”<br>
+                  14 Outro : Do you think it makes sense? 2’53”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/dw.jpg" class="m-2">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
-          2021
+          2013
         </button>
-      </h2>
-      <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
-        <div class="accordion-body">
-          <div>
-            <strong>Butter</strong>
-            <p>Digitaalinen single</p>
-            <p>Julkaistu: 21.5.</p>
-            <p>
-              Kappaleet:<br>
-              1 Butter 2’44”<br>
-              2 Butter (Instrumental) 2’42”
-            </p>
-          </div>
-          <div>
-            <strong>Butter</strong>
-            <p>CD single</p>
-            <p>Julkaistu: 9.7.</p>
-            <p>
-              Kappaleet:<br>
-              1 Butter 2’44”<br>
-              2 Permission to Dance 3’07”<br>
-              3 Butter (Instrumental) 2’42”<br>
-              4 Permission to Dance (Instrumental) 3’07”
-            </p>
+        </h2>
+        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+          <div class="accordion-body">
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>2 Cool 4 Skool</strong>
+                <p>Ensimmäinen singlealbumi</p>
+                <p>Julkaistu: 12.6.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 Intro : 2 COOL 4 SKOOL feat. DJ Friz 1’03”<br>
+                  2 We are bulletproof PT.2 3’45”<br>
+                  3 Skit : Circle room talk 2’11”<br>
+                  4 No More Dream 3’42”<br>
+                  5 Interlude 0’52”<br>
+                  6 Like 3’51”<br>
+                  7 Outro : Circle room cypher 5’21”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/2c4s.jpg" class="m-2">
+              </div>
+            </div>
+            <div class="row align-items-start m-3">
+              <div class="col">
+                <strong>O!RUL8,2?</strong>
+                <p>Ensimmäinen EP</p>
+                <p>Julkaistu: 11.9.</p>
+                <p>
+                  Kappaleet:<br>
+                  1 INTRO : O!RUL8,2? 1’11”<br>
+                  2 N.O 3’30”<br>
+                  3 We On 3’51”<br>
+                  4 Skit: R U Happy Now? 2’28”<br>
+                  5 If I Ruled the World 4’07”<br>
+                  6 Coffee 4’20”<br>
+                  7 BTS Cypher PT.1 2’11”<br>
+                  8 Attack on Bangtan 4’07”<br>
+                  9 Paldogangsan 3’25”<br>
+                  10 OUTRO : LUV IN SKOOL 1’26”
+                </p>
+              </div>
+              <div class="col">
+                <img src="../images/orul82.jpg" class="m-2">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3">
+        <p>© 2021 Noora Turpeinen</p>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

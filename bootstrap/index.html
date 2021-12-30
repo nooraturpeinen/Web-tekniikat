@@ -1,41 +1,44 @@
 <!doctype html>
-<html lang="en">
+<html lang="fin">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="author" content="Noora Turpeinen">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-    <title>BTS - Etusivu</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dbbfcc22fb.js" crossorigin="anonymous"></script>
+    <title>BTS - ETUSIVU</title>
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">BTS</a>
+          <img src="images/logo.png" class="navbar-brand">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Etusivu</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Valikko
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Jäsenet</a></li>
-                  <li><a class="dropdown-item" href="#">Diskografia</a></li>
+                  <li><a class="dropdown-item" href="pages/members.html">Jäsenet</a></li>
+                  <li><a class="dropdown-item" href="pages/discography.html">Diskografia</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide pt-5" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -81,16 +84,34 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="container">
+    <!-- Columns -->
+    <div class="container p-5">
       <div class="col">
-        <div class="row justify-content-center">
-          ye
+        <div class="row justify-content-center text-center">
+          <p style="text-align: justify;">BTS on etelä-korealainen yhtye, joka koostuu seitsemästä jäsenestä: RM, Jin, SUGA, j-hope, Jimin, V ja Jung Kook. Seitsikko julkaisi debyyttialbuminsa 2 Cool 4 Skool 12.6.2013. Kahdeksan vuoden jälkeen BTS:llä on kuusi Billboard Hot 100 -listan ykkössijalle noussutta kappaletta, 63 pääpalkintoa korealaisista musiikkigaaloista ja 2 Grammy-ehdokkuutta. Yhtye on myynyt kymmeniä miljoonia levyjä ja heidän kappaleitaan on striimattu kymmeniä miljardeja kertoja.</p>
         </div>
-        <div class="row justify-content-center">
-          ye
+        <!-- Buttons -->
+        <div class="justify-content-center text-center p-3">
+          <a class="btn btn-dark" href="https://ibighit.com/bts" role="button" target="_blank"><i class="fas fa-home"></i></a>
+          <a class="btn btn-dark" href="https://twitter.com/bts_bighit" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-dark" href="https://twitter.com/bts_twt" role="button" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          <a class="btn btn-dark" href="https://www.facebook.com/bangtan.official/" role="button" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a class="btn btn-dark" href="https://www.youtube.com/c/bangtantv" role="button" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a class="btn btn-dark" href="https://www.instagram.com/bts.bighitofficial/" role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-dark" href="https://www.tiktok.com/@bts_official_bighit?" role="button" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a class="btn btn-dark" href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX" role="button" target="_blank"><i class="fab fa-spotify"></i></a>
+          <a class="btn btn-dark" href="https://www.deezer.com/en/artist/6982223" role="button" target="_blank"><i class="fab fa-deezer"></i></a>
+          <a class="btn btn-dark" href="https://soundcloud.com/bangtan" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3">
+        <p>© 2021 Noora Turpeinen</p>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
