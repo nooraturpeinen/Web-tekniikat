@@ -12,12 +12,22 @@ nav, footer {
 .container-fluid > img {
     height: 65px;
 }
+
+#carouselExampleCaptions {
+    background-color: rgb(161, 159, 161);
+}
+
 .carousel-item > div > p{
     font-size: 13px;
 }
 
+span, .col > p:first-child, button {
+    font-weight: bold;
+}
+
 strong {
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .col > img {
