@@ -7,17 +7,19 @@
     <title>Jalankulkijoiden liukastumisvaroitukset</title>
 </head>
 <body>
-    <h2>Jalankulkijoiden liukastumisvaroitukset</h2>
-    <p>Viimeisimmät liukastumisvaroitukset Helsingissä, Jyväskylässä, Kuopiossa, Lahdessa ja Oulussa.</p>
-    <label for="">Valitse kaupunki:</label>
-    <select name="" id="">
-        <option value="">Helsinki</option>
-        <option value="">Jyväskylä</option>
-        <option value="">Kuopio</option>
-        <option value="">Lahti</option>
-        <option value="">Oulu</option>
-    </select>
-    <p id="city"></p>
+    <div>
+        <h2>Jalankulkijoiden liukastumisvaroitukset</h2>
+        <p>Viimeisimmät liukastumisvaroitukset Helsingissä, Jyväskylässä, Kuopiossa, Lahdessa ja Oulussa.</p>
+        <label for="city">Valitse kaupunki:</label>
+        <select name="city" id="city">
+            <option value="Helsinki">Helsinki</option>
+            <option value="Jyväskylä">Jyväskylä</option>
+            <option value="Kuopio">Kuopio</option>
+            <option value="Lahti">Lahti</option>
+            <option value="Oulu">Oulu</option>
+        </select>
+        <button>Viimeisin varoitus</button>
+    </div>
     <script src="code.js" defer></script>
 </body>
 </html>
