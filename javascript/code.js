@@ -22,9 +22,26 @@ xmlhttp.onreadystatechange = function() {
             let selectedCity = document.querySelector("select").value;
             for (let i = 0; i < warnings.length; i++) {
                 if (warnings[i].city == selectedCity) {
-                    p.innerHTML = warnings[i].created_at;
+                    let warning = warnings[i].created_at;
+                    let day = warning.slice(8, 10);
+                    if (warning.slice(8, 9) == "0") {
+                        day = warning.slice(9, 10);
+                    }
+                    let month = warning.slice(5, 7);
+                    if (warning.slice(5, 6) == "0") {
+                        month = warning.slice(6, 7);
+                    }
+                    let year = warning.slice(0, 4);
+                    let hour = warning.slice(11, 13);
+                    if (warning.slice(11, 12) == "0") {
+                        hour = warning.slice(12, 13);
+                    }
+                    let minutes = warning.slice(14, 16);
+                    p.innerHTML = day + "." + month + "." + year + " klo " + hour + "." + minutes;
                 }
             }
         }
     }
 }
+
+// 0-16
