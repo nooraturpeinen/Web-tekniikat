@@ -2,23 +2,104 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto 1fr auto;
-    margin: 0px;
+    grid-template-rows: auto auto 1fr auto;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
+    height: 6em;
     grid-row: 1/2;
-    background-color: #8BBDEB;
+    background-color: #103659;
     text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    color: #507CA6;
 }
 
-div {
+h2 {
+    display: inline-block;
+    margin-top: 1.45em;
+    padding-right: 0.25em;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+header > i {
+    font-size: 20px;
+}
+
+.info {
     grid-row: 2/3;
     text-align: center;
+    padding: 3.5em;
+}
+
+p {
+    font-size: 17px;
+    color: #103659;
+}
+
+div > p:nth-child(2) {
+    display: inline-block;
+    padding-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2C92F2;
+}
+
+.warning {
+    height: 15em;
+    width: 30em;
+    justify-self: center;
+    grid-row: 3/4;
+    background: linear-gradient(to bottom, #375673 0%, #375673 25%, #507CA6 25%, #507CA6 100%);
+    border: 3px solid #103659;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 1.25em 0 1.75em 2em;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+select {
+    height: 2.5em;
+    width: 20em;
+    display: block;
+    margin: 2.75em 0 0.5em 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #103659;
+}
+
+button {
+    margin: 1em 0 0.85em 2.5em;
+    padding: 0.75em;
+    background-color: #103659;
+    border: 1px solid #103659;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.warning > p:last-child {
+    margin: 0.75em 0 0 2em;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 footer {
-    grid-row: 3/4;
-    background-color: #8BBDEB;
+    grid-row: 4/5;
+    background-color: #103659;
     text-align: center;
+    font-size: 15px;
+    color: #FFFFFF
 }

@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange = function() {
         // Parsing JSON response
         let warnings = JSON.parse(xmlhttp.response);
         // Printing warning
-        let div = document.querySelector("div");
+        let div = document.querySelector(".warning");
         let p = document.createElement("p");
         div.appendChild(p);
         let button = document.querySelector("button");
@@ -37,7 +37,7 @@ xmlhttp.onreadystatechange = function() {
                         hour = warning.slice(12, 13);
                     }
                     let minutes = warning.slice(14, 16);
-                    p.innerHTML = day + "." + month + "." + year + " klo " + hour + "." + minutes;
+                    p.innerHTML = selectedCity + ": " + day + "." + month + "." + year + " klo " + hour + "." + minutes;
                 }
             }
         }

@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Jalankulkijoiden liukastumisvaroitukset</title>
 </head>
 <body>
     <header>
         <h2>Jalankulkijoiden liukastumisvaroitukset</h2>
+        <i class="fas fa-icicles"></i>
     </header>
-    <div>
+    <div class="info">
         <p>Viimeisimmät liukastumisvaroitukset Helsingissä, Jyväskylässä, Kuopiossa, Lahdessa ja Oulussa.</p>
+        <p>Lisätietoa ja ilmoittaudu liukastumisvaroituspalveluun</p>
+        <a href="https://liukastumisvaroitus.fi/" target="_blank">tästä</a>
+    </div>
+    <div class="warning">
         <label for="city">Valitse kaupunki:</label>
-        <select name="city" id="city">
+        <select name="city">
             <option value="Helsinki">Helsinki</option>
             <option value="Jyväskylä">Jyväskylä</option>
             <option value="Kuopio">Kuopio</option>
@@ -24,7 +33,7 @@
         <button>Viimeisin varoitus</button>
     </div>
     <footer>
-        <h4>© 2021 Noora Turpeinen</h4>
+        <h4>© 2022 Noora Turpeinen</h4>
     </footer>
     <script src="code.js" defer></script>
 </body>
